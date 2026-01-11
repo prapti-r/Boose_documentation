@@ -1,0 +1,374 @@
+### YamlMime:ManagedReference
+items:
+- uid: BOOSEapp
+  commentId: N:BOOSEapp
+  id: BOOSEapp
+  children:
+  - BOOSEapp.AppArray
+  - BOOSEapp.AppBoolean
+  - BOOSEapp.AppCall
+  - BOOSEapp.AppCanvas
+  - BOOSEapp.AppCircle
+  - BOOSEapp.AppClear
+  - BOOSEapp.AppCommandFactory
+  - BOOSEapp.AppElse
+  - BOOSEapp.AppEnd
+  - BOOSEapp.AppFor
+  - BOOSEapp.AppIf
+  - BOOSEapp.AppInt
+  - BOOSEapp.AppMethod
+  - BOOSEapp.AppMethod.MethodParam
+  - BOOSEapp.AppMoveto
+  - BOOSEapp.AppParser
+  - BOOSEapp.AppPeek
+  - BOOSEapp.AppPen
+  - BOOSEapp.AppPoke
+  - BOOSEapp.AppReal
+  - BOOSEapp.AppReal.CommandException
+  - BOOSEapp.AppRect
+  - BOOSEapp.AppRect.CanvasException
+  - BOOSEapp.AppRect.CommandException
+  - BOOSEapp.AppRect.StoredProgramException
+  - BOOSEapp.AppReset
+  - BOOSEapp.AppStoredProgram
+  - BOOSEapp.AppWhile
+  - BOOSEapp.AppWrite
+  - BOOSEapp.AppWrite.CanvasException
+  - BOOSEapp.AppWrite.CommandException
+  - BOOSEapp.CanvasException
+  - BOOSEapp.Form1
+  - BOOSEapp.myVariable
+  langs:
+  - csharp
+  - vb
+  name: BOOSEapp
+  nameWithType: BOOSEapp
+  fullName: BOOSEapp
+  type: Namespace
+  assemblies:
+  - BOOSEapp
+references:
+- uid: BOOSEapp.AppArray
+  commentId: T:BOOSEapp.AppArray
+  href: BOOSEapp.AppArray.html
+  name: AppArray
+  nameWithType: AppArray
+  fullName: BOOSEapp.AppArray
+- uid: BOOSEapp.AppBoolean
+  commentId: T:BOOSEapp.AppBoolean
+  href: BOOSEapp.AppBoolean.html
+  name: AppBoolean
+  nameWithType: AppBoolean
+  fullName: BOOSEapp.AppBoolean
+- uid: BOOSEapp.AppCall
+  commentId: T:BOOSEapp.AppCall
+  href: BOOSEapp.AppCall.html
+  name: AppCall
+  nameWithType: AppCall
+  fullName: BOOSEapp.AppCall
+- uid: BOOSEapp.CanvasException
+  commentId: T:BOOSEapp.CanvasException
+  href: BOOSEapp.CanvasException.html
+  name: CanvasException
+  nameWithType: CanvasException
+  fullName: BOOSEapp.CanvasException
+- uid: BOOSEapp.AppCanvas
+  commentId: T:BOOSEapp.AppCanvas
+  href: BOOSEapp.AppCanvas.html
+  name: AppCanvas
+  nameWithType: AppCanvas
+  fullName: BOOSEapp.AppCanvas
+- uid: BOOSEapp.AppCircle
+  commentId: T:BOOSEapp.AppCircle
+  href: BOOSEapp.AppCircle.html
+  name: AppCircle
+  nameWithType: AppCircle
+  fullName: BOOSEapp.AppCircle
+- uid: BOOSEapp.AppClear
+  commentId: T:BOOSEapp.AppClear
+  href: BOOSEapp.AppClear.html
+  name: AppClear
+  nameWithType: AppClear
+  fullName: BOOSEapp.AppClear
+- uid: BOOSEapp.AppCommandFactory
+  commentId: T:BOOSEapp.AppCommandFactory
+  parent: BOOSEapp
+  href: BOOSEapp.AppCommandFactory.html
+  name: AppCommandFactory
+  nameWithType: AppCommandFactory
+  fullName: BOOSEapp.AppCommandFactory
+- uid: BOOSEapp.AppElse
+  commentId: T:BOOSEapp.AppElse
+  href: BOOSEapp.AppElse.html
+  name: AppElse
+  nameWithType: AppElse
+  fullName: BOOSEapp.AppElse
+- uid: BOOSEapp.AppEnd
+  commentId: T:BOOSEapp.AppEnd
+  href: BOOSEapp.AppEnd.html
+  name: AppEnd
+  nameWithType: AppEnd
+  fullName: BOOSEapp.AppEnd
+- uid: BOOSEapp.AppFor
+  commentId: T:BOOSEapp.AppFor
+  href: BOOSEapp.AppFor.html
+  name: AppFor
+  nameWithType: AppFor
+  fullName: BOOSEapp.AppFor
+- uid: BOOSEapp.AppIf
+  commentId: T:BOOSEapp.AppIf
+  href: BOOSEapp.AppIf.html
+  name: AppIf
+  nameWithType: AppIf
+  fullName: BOOSEapp.AppIf
+- uid: BOOSEapp.AppInt
+  commentId: T:BOOSEapp.AppInt
+  href: BOOSEapp.AppInt.html
+  name: AppInt
+  nameWithType: AppInt
+  fullName: BOOSEapp.AppInt
+- uid: BOOSEapp.AppMethod
+  commentId: T:BOOSEapp.AppMethod
+  href: BOOSEapp.AppMethod.html
+  name: AppMethod
+  nameWithType: AppMethod
+  fullName: BOOSEapp.AppMethod
+- uid: BOOSEapp.AppMethod.MethodParam
+  commentId: T:BOOSEapp.AppMethod.MethodParam
+  href: BOOSEapp.AppMethod.html
+  name: AppMethod.MethodParam
+  nameWithType: AppMethod.MethodParam
+  fullName: BOOSEapp.AppMethod.MethodParam
+  spec.csharp:
+  - uid: BOOSEapp.AppMethod
+    name: AppMethod
+    href: BOOSEapp.AppMethod.html
+  - name: .
+  - uid: BOOSEapp.AppMethod.MethodParam
+    name: MethodParam
+    href: BOOSEapp.AppMethod.MethodParam.html
+  spec.vb:
+  - uid: BOOSEapp.AppMethod
+    name: AppMethod
+    href: BOOSEapp.AppMethod.html
+  - name: .
+  - uid: BOOSEapp.AppMethod.MethodParam
+    name: MethodParam
+    href: BOOSEapp.AppMethod.MethodParam.html
+- uid: BOOSEapp.AppMoveto
+  commentId: T:BOOSEapp.AppMoveto
+  href: BOOSEapp.AppMoveto.html
+  name: AppMoveto
+  nameWithType: AppMoveto
+  fullName: BOOSEapp.AppMoveto
+- uid: BOOSEapp.AppParser
+  commentId: T:BOOSEapp.AppParser
+  href: BOOSEapp.AppParser.html
+  name: AppParser
+  nameWithType: AppParser
+  fullName: BOOSEapp.AppParser
+- uid: BOOSEapp.AppPeek
+  commentId: T:BOOSEapp.AppPeek
+  href: BOOSEapp.AppPeek.html
+  name: AppPeek
+  nameWithType: AppPeek
+  fullName: BOOSEapp.AppPeek
+- uid: BOOSEapp.AppPen
+  commentId: T:BOOSEapp.AppPen
+  href: BOOSEapp.AppPen.html
+  name: AppPen
+  nameWithType: AppPen
+  fullName: BOOSEapp.AppPen
+- uid: BOOSEapp.AppPoke
+  commentId: T:BOOSEapp.AppPoke
+  href: BOOSEapp.AppPoke.html
+  name: AppPoke
+  nameWithType: AppPoke
+  fullName: BOOSEapp.AppPoke
+- uid: BOOSEapp.AppReal
+  commentId: T:BOOSEapp.AppReal
+  href: BOOSEapp.AppReal.html
+  name: AppReal
+  nameWithType: AppReal
+  fullName: BOOSEapp.AppReal
+- uid: BOOSEapp.AppReal.CommandException
+  commentId: T:BOOSEapp.AppReal.CommandException
+  href: BOOSEapp.AppReal.html
+  name: AppReal.CommandException
+  nameWithType: AppReal.CommandException
+  fullName: BOOSEapp.AppReal.CommandException
+  spec.csharp:
+  - uid: BOOSEapp.AppReal
+    name: AppReal
+    href: BOOSEapp.AppReal.html
+  - name: .
+  - uid: BOOSEapp.AppReal.CommandException
+    name: CommandException
+    href: BOOSEapp.AppReal.CommandException.html
+  spec.vb:
+  - uid: BOOSEapp.AppReal
+    name: AppReal
+    href: BOOSEapp.AppReal.html
+  - name: .
+  - uid: BOOSEapp.AppReal.CommandException
+    name: CommandException
+    href: BOOSEapp.AppReal.CommandException.html
+- uid: BOOSEapp.AppRect
+  commentId: T:BOOSEapp.AppRect
+  href: BOOSEapp.AppRect.html
+  name: AppRect
+  nameWithType: AppRect
+  fullName: BOOSEapp.AppRect
+- uid: BOOSEapp.AppRect.CanvasException
+  commentId: T:BOOSEapp.AppRect.CanvasException
+  href: BOOSEapp.AppRect.html
+  name: AppRect.CanvasException
+  nameWithType: AppRect.CanvasException
+  fullName: BOOSEapp.AppRect.CanvasException
+  spec.csharp:
+  - uid: BOOSEapp.AppRect
+    name: AppRect
+    href: BOOSEapp.AppRect.html
+  - name: .
+  - uid: BOOSEapp.AppRect.CanvasException
+    name: CanvasException
+    href: BOOSEapp.AppRect.CanvasException.html
+  spec.vb:
+  - uid: BOOSEapp.AppRect
+    name: AppRect
+    href: BOOSEapp.AppRect.html
+  - name: .
+  - uid: BOOSEapp.AppRect.CanvasException
+    name: CanvasException
+    href: BOOSEapp.AppRect.CanvasException.html
+- uid: BOOSEapp.AppRect.CommandException
+  commentId: T:BOOSEapp.AppRect.CommandException
+  href: BOOSEapp.AppRect.html
+  name: AppRect.CommandException
+  nameWithType: AppRect.CommandException
+  fullName: BOOSEapp.AppRect.CommandException
+  spec.csharp:
+  - uid: BOOSEapp.AppRect
+    name: AppRect
+    href: BOOSEapp.AppRect.html
+  - name: .
+  - uid: BOOSEapp.AppRect.CommandException
+    name: CommandException
+    href: BOOSEapp.AppRect.CommandException.html
+  spec.vb:
+  - uid: BOOSEapp.AppRect
+    name: AppRect
+    href: BOOSEapp.AppRect.html
+  - name: .
+  - uid: BOOSEapp.AppRect.CommandException
+    name: CommandException
+    href: BOOSEapp.AppRect.CommandException.html
+- uid: BOOSEapp.AppRect.StoredProgramException
+  commentId: T:BOOSEapp.AppRect.StoredProgramException
+  href: BOOSEapp.AppRect.html
+  name: AppRect.StoredProgramException
+  nameWithType: AppRect.StoredProgramException
+  fullName: BOOSEapp.AppRect.StoredProgramException
+  spec.csharp:
+  - uid: BOOSEapp.AppRect
+    name: AppRect
+    href: BOOSEapp.AppRect.html
+  - name: .
+  - uid: BOOSEapp.AppRect.StoredProgramException
+    name: StoredProgramException
+    href: BOOSEapp.AppRect.StoredProgramException.html
+  spec.vb:
+  - uid: BOOSEapp.AppRect
+    name: AppRect
+    href: BOOSEapp.AppRect.html
+  - name: .
+  - uid: BOOSEapp.AppRect.StoredProgramException
+    name: StoredProgramException
+    href: BOOSEapp.AppRect.StoredProgramException.html
+- uid: BOOSEapp.AppReset
+  commentId: T:BOOSEapp.AppReset
+  href: BOOSEapp.AppReset.html
+  name: AppReset
+  nameWithType: AppReset
+  fullName: BOOSEapp.AppReset
+- uid: BOOSEapp.AppStoredProgram
+  commentId: T:BOOSEapp.AppStoredProgram
+  parent: BOOSEapp
+  href: BOOSEapp.AppStoredProgram.html
+  name: AppStoredProgram
+  nameWithType: AppStoredProgram
+  fullName: BOOSEapp.AppStoredProgram
+- uid: BOOSEapp.AppWhile
+  commentId: T:BOOSEapp.AppWhile
+  href: BOOSEapp.AppWhile.html
+  name: AppWhile
+  nameWithType: AppWhile
+  fullName: BOOSEapp.AppWhile
+- uid: BOOSEapp.AppWrite
+  commentId: T:BOOSEapp.AppWrite
+  href: BOOSEapp.AppWrite.html
+  name: AppWrite
+  nameWithType: AppWrite
+  fullName: BOOSEapp.AppWrite
+- uid: BOOSEapp.AppWrite.CanvasException
+  commentId: T:BOOSEapp.AppWrite.CanvasException
+  href: BOOSEapp.AppWrite.html
+  name: AppWrite.CanvasException
+  nameWithType: AppWrite.CanvasException
+  fullName: BOOSEapp.AppWrite.CanvasException
+  spec.csharp:
+  - uid: BOOSEapp.AppWrite
+    name: AppWrite
+    href: BOOSEapp.AppWrite.html
+  - name: .
+  - uid: BOOSEapp.AppWrite.CanvasException
+    name: CanvasException
+    href: BOOSEapp.AppWrite.CanvasException.html
+  spec.vb:
+  - uid: BOOSEapp.AppWrite
+    name: AppWrite
+    href: BOOSEapp.AppWrite.html
+  - name: .
+  - uid: BOOSEapp.AppWrite.CanvasException
+    name: CanvasException
+    href: BOOSEapp.AppWrite.CanvasException.html
+- uid: BOOSEapp.AppWrite.CommandException
+  commentId: T:BOOSEapp.AppWrite.CommandException
+  href: BOOSEapp.AppWrite.html
+  name: AppWrite.CommandException
+  nameWithType: AppWrite.CommandException
+  fullName: BOOSEapp.AppWrite.CommandException
+  spec.csharp:
+  - uid: BOOSEapp.AppWrite
+    name: AppWrite
+    href: BOOSEapp.AppWrite.html
+  - name: .
+  - uid: BOOSEapp.AppWrite.CommandException
+    name: CommandException
+    href: BOOSEapp.AppWrite.CommandException.html
+  spec.vb:
+  - uid: BOOSEapp.AppWrite
+    name: AppWrite
+    href: BOOSEapp.AppWrite.html
+  - name: .
+  - uid: BOOSEapp.AppWrite.CommandException
+    name: CommandException
+    href: BOOSEapp.AppWrite.CommandException.html
+- uid: BOOSEapp.Form1
+  commentId: T:BOOSEapp.Form1
+  href: BOOSEapp.Form1.html
+  name: Form1
+  nameWithType: Form1
+  fullName: BOOSEapp.Form1
+- uid: BOOSEapp.myVariable
+  commentId: T:BOOSEapp.myVariable
+  href: BOOSEapp.myVariable.html
+  name: myVariable
+  nameWithType: myVariable
+  fullName: BOOSEapp.myVariable
+- uid: BOOSEapp
+  commentId: N:BOOSEapp
+  href: BOOSEapp.html
+  name: BOOSEapp
+  nameWithType: BOOSEapp
+  fullName: BOOSEapp

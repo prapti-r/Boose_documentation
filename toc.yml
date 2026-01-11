@@ -1,0 +1,6 @@
+- name: Home
+  href: index.md
+- name: API Documentation
+  href: api/
+- name: Test Documentation
+  href: api/BOOSEappTest.html # This will point to the same folder where your tests are indexed

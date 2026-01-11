@@ -1,0 +1,33 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+          "BOOSEapp/*.csproj",
+          "BOOSEappTests/*.csproj" 
+        ],
+          "exclude": ["**/bin/**", "**/obj/**"]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      { "files": ["api/**/*.yml"] },
+      { "files": ["articles/**/*.md", "index.md", "toc.yml"] }
+    ],
+    "resource": [
+      { "files": ["images/**"] }
+    ],
+    "dest": "_site",
+    "globalMetadata": {
+      "_appTitle": "BOOSE Project Documentation",
+      "_appFooter": "© 2026 BOOSE Application",
+      "_enableSearch": true,
+      "_enableNewTab": true
+    },
+    "template": ["default", "modern"]
+  }
+}
