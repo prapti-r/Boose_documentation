@@ -1,0 +1,565 @@
+{
+  "source_base_path": "C:/Users/PC/source/repos/ase-boose-assignment-prapti-r/BOOSEapp",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppArray",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppArray.yml\" sourcestartlinenumber=\"1\">Represents a one-dimensional array in the BOOSE language.\nSupports int, real, and boolean element types.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppBoolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppBoolean.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppBoolean",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppBoolean.yml\" sourcestartlinenumber=\"1\">Represents a <code>boolean</code> variable declaration or assignment\nin the BOOSE language.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppCall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppCall.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCall",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppCall.yml\" sourcestartlinenumber=\"1\">Represents a method call command in the BOOSE language.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCanvas",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppCanvas.yml\" sourcestartlinenumber=\"1\">Implements the <xref href=\"BOOSE.ICanvas\" data-throw-if-not-resolved=\"false\"></xref> interface to provide drawing, positioning, shape rendering,\nand pen management functionalities for the BOOSE application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCircle",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppCircle.yml\" sourcestartlinenumber=\"1\">Represents the <code>circle</code> command in the BOOSE language.\nDraws a circle on the canvas using a specified radius.\nThe radius expression may be a literal, variable, or arithmetic expression.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppClear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppClear.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppClear",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCommandFactory",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">Factory responsible for creating BOOSE application-specific commands.\nImplemented as a Singleton to ensure only one factory instance exists\nthroughout the lifetime of the application.\nThis factory maps BOOSE language keywords to their corresponding specific command implementations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppElse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppElse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppElse",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppElse.yml\" sourcestartlinenumber=\"1\">Represents the <code>else</code> command in the BOOSE language.\nThe <code>else</code> command works in conjunction with <code>if</code> and\n<code>end if</code>. If the associated IF condition evaluated to TRUE,\nthe ELSE block is skipped. Otherwise, the ELSE block is executed.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppEnd.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppEnd",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppEnd.yml\" sourcestartlinenumber=\"1\">Represents the <code>end</code> command in the BOOSE language.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppFor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppFor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppFor",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppFor.yml\" sourcestartlinenumber=\"1\">Represents the <code>for</code> loop command in the BOOSE language.\nThis command controls loop initialisation, iteration, and termination\nbased on a start value, end value, and step increment.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppIf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppIf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppIf",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppIf.yml\" sourcestartlinenumber=\"1\">Represents the <code>if</code> conditional command in the BOOSE language.\nThe condition is evaluated once when the IF is encountered.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppInt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppInt",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppInt.yml\" sourcestartlinenumber=\"1\">Represents an integer variable in the BOOSE language.\nHandles integer declaration and expression evaluation.\nIf no expression is supplied, the variable defaults to 0.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppMethod.MethodParam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppMethod.MethodParam.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppMethod.MethodParam",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppMethod.MethodParam.yml\" sourcestartlinenumber=\"1\">Represents a single method parameter.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppMethod.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppMethod",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppMethod.yml\" sourcestartlinenumber=\"1\">Represents a method declaration in the BOOSE language.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppMoveto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppMoveto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppMoveto",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppMoveto.yml\" sourcestartlinenumber=\"1\">Represents the <code>moveto</code> command in the BOOSE language.\nMoves the drawing cursor to a specified (X, Y) position\non the canvas without drawing a line.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppParser",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppParser.yml\" sourcestartlinenumber=\"1\">Converts source lines into executable ICommand objects\nPerforms syntax validation and structural checks\nReports clear, line-based parsing errors to the user\nDelegates command creation to CommandFactory where appropriate</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppPeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppPeek.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppPeek",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppPeek.yml\" sourcestartlinenumber=\"1\">Implements the BOOSE PEEK command.\nReads a value from an array at a given index\nAssigns the retrieved value to an existing variable</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppPen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppPen.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppPen",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppPen.yml\" sourcestartlinenumber=\"1\">Represents the <code>pen</code> command in the BOOSE language.\nSets the current drawing colour on the canvas using RGB values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppPoke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppPoke.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppPoke",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppPoke.yml\" sourcestartlinenumber=\"1\">Represents the <code>poke</code> command in the BOOSE language.\nStores a value into a specified index of an array.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppReal.CommandException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppReal.CommandException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppReal.CommandException",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppReal.CommandException.yml\" sourcestartlinenumber=\"1\">Exception thrown when a real expression fails to evaluate correctly.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppReal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppReal",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppReal.yml\" sourcestartlinenumber=\"1\">Represents a real (double-precision) variable in the BOOSE language.\nThis class preserves full floating-point precision\nwhile keeping the base <xref href=\"BOOSE.Evaluation.Value\" data-throw-if-not-resolved=\"false\"></xref> synchronized.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppRect.CanvasException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppRect.CanvasException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppRect.CanvasException",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppRect.CanvasException.yml\" sourcestartlinenumber=\"1\">Exception thrown when a canvas operation fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppRect.CommandException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppRect.CommandException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppRect.CommandException",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppRect.CommandException.yml\" sourcestartlinenumber=\"1\">Exception thrown when the command syntax or parameters are invalid.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppRect.StoredProgramException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppRect.StoredProgramException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppRect.StoredProgramException",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppRect.StoredProgramException.yml\" sourcestartlinenumber=\"1\">Exception thrown when the stored program is in an invalid state.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppRect",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppRect.yml\" sourcestartlinenumber=\"1\">Represents the <code>rect</code> command in the BOOSE language.\nDraws a rectangle at the current canvas position using the\nspecified width and height.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppReset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppReset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppReset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppStoredProgram.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppStoredProgram",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppStoredProgram.yml\" sourcestartlinenumber=\"1\">This class is responsible for:\nStoring and executing compiled BOOSE commands\nManaging variables (int, real, boolean, etc.)\nEvaluating expressions at runtime\nProviding safer execution with runtime error reporting</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppWhile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppWhile",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppWhile.yml\" sourcestartlinenumber=\"1\">Represents the <code>while</code> command in the BOOSE language.\nThe WHILE command evaluates a condition and repeatedly executes\nthe enclosed block while the condition remains true.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppWrite.CanvasException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppWrite.CanvasException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppWrite.CanvasException",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppWrite.CanvasException.yml\" sourcestartlinenumber=\"1\">Exception thrown when a canvas operation fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppWrite.CommandException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppWrite.CommandException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppWrite.CommandException",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppWrite.CommandException.yml\" sourcestartlinenumber=\"1\">Exception thrown when the write command syntax or parameters are invalid.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppWrite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppWrite",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppWrite.yml\" sourcestartlinenumber=\"1\">Represents the <code>write</code> command in the BOOSE language.\nWrites text to the canvas at the current pen position.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.CanvasException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.CanvasException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.CanvasException",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.CanvasException.yml\" sourcestartlinenumber=\"1\">Exception thrown when canvas-related issues occur</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.Form1",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.Form1.yml\" sourcestartlinenumber=\"1\">The main Windows Forms interface for the BOOSE application.\nProvides the canvas for drawing, command input, and execution controls.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.myVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.myVariable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.myVariable",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.myVariable.yml\" sourcestartlinenumber=\"1\">Provides helper methods for converting BOOSE expressions\ninto strongly typed C# values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
